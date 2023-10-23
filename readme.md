@@ -6,7 +6,7 @@ first generate templ go code by using templ generate then pass the code along wi
 args are optional and the program would work as expected.
 
 ```bash
-templ generate test/hello.go
+templ generate test/hello.templ
 go run main.go --templ test/hello_templ.go --data test/test.json
 ```
 
